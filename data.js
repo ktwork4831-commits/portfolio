@@ -3,7 +3,7 @@ const portfolioData = {
     name: "田村 昂大",
     englishName: "TAMURA KOUDAI",
     motto: "雨垂れ石を穿つ",
-    proverb: "Constant dripping wears away a stone.",
+    proverb: "雨垂れ石を穿つ",
     likes: ["アクションゲーム", "散策", "写真撮影"],
     dislikes: ["辛いもの", "寒い季節"]
   },
