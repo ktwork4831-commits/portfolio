@@ -82,6 +82,7 @@ section { scroll-margin-top:100px; }
 .about-list li + li { margin-top:8px; }
 .about-list li::before { content:"/"; margin-right:10px; color:var(--orange); font-family:"DM Mono",monospace; }
 .about-proverb { margin:18px 0 0; color:#d7d9d6; font-size:15px; }
+.about-proverb::before { content:"/"; margin-right:10px; color:var(--orange); font-family:"DM Mono",monospace; }
 .site-footer { display:flex; justify-content:space-between; align-items:center; gap:20px; width:min(calc(100% - 64px),var(--max)); margin:60px auto 0; padding:28px 0 35px; border-top:0; color:#b8bfbd; font-size:12px; font-weight:500; letter-spacing:.06em; }
 .site-footer a { color:#ffc09a; font-weight:500; letter-spacing:.05em; }
 .reveal { opacity:0; transform:translateY(18px); transition:opacity .55s ease,transform .55s ease; }
