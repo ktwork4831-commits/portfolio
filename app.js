@@ -55,7 +55,6 @@ function render() {
   $("[data-youtube-subscribers]").textContent = youtube.subscribers;
   $("[data-youtube-views]").textContent = youtube.totalViews;
   $("[data-youtube-channel]").textContent = youtube.channelName;
-  $("[data-youtube-description]").textContent = youtube.description;
   $("[data-youtube-link]").href = youtube.url;
   $("[data-works]").innerHTML = works.map(renderWork).join("");
   $("[data-tools]").innerHTML = tools.map(renderTools).join("");

@@ -11,7 +11,6 @@ const portfolioData = {
     channelName: "Koudai.T",
     subscribers: "22,000+",
     totalViews: "13,656,395回",
-    description: "ゲーム系コンテンツを中心に継続運用",
     url: "https://www.youtube.com/c/KoudaiT15"
   },
   works: [
